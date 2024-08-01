@@ -22,7 +22,7 @@ export default function RootLayout({ children }) {
         <NextUIProvider>
           <div className="flex flex-col min-h-screen">
             <Navbar />
-            <main className="flex-grow bg-[#F4F4F4]">{children}</main>
+            <main className="flex-grow bg-light_gray">{children}</main>
             <Footer />
           </div>
         </NextUIProvider>

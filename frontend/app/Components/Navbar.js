@@ -7,9 +7,9 @@ import { Switch } from '@nextui-org/react';
 const Navbar = () => {
   const [isSelected, setIsSelected] = useState(true);
   return (
-    <div className="bg-[#EEEDEF] px-36 py-5 flex flex-row items-center justify-between">
+    <div className="bg-lavendar_gray px-36 py-5 flex flex-row items-center justify-between">
       <div>
-        <p className="text-lg font-extrabold text-[#490ED9]">ZenWeb</p>
+        <p className="text-lg font-extrabold text-blue_violet">ZenWeb</p>
       </div>
       <div className="flex flex-row items-center">
         <span className="text-base mr-10 text-black cursor-pointer">Home</span>

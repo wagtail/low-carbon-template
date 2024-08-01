@@ -1,7 +1,7 @@
 const Footer = () => {
   return (
     <footer className="">
-      <div className="mx-36 flex flex-row items-center justify-between bg-[#0C0E0A] py-6">
+      <div className="mx-36 flex flex-row items-center justify-between bg-black py-6">
         <div>
           <p className="italic">
             Wagtail, A step towards Sustainable Development.

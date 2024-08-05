@@ -7,13 +7,19 @@ import { Switch } from '@nextui-org/react';
 const Navbar = () => {
   const [isSelected, setIsSelected] = useState(true);
   return (
-    <div className="bg-[#EEEDEF] px-36 py-5 flex flex-row items-center justify-between">
+    <header className="bg-[#EEEDEF] px-36 py-5 flex flex-row items-center justify-between" role="navigation">
       <div>
         <p className="text-lg font-extrabold text-[#490ED9]">ZenWeb</p>
       </div>
       <div className="flex flex-row items-center">
-        <span className="text-base mr-10 text-black cursor-pointer">Home</span>
-        <span className="text-base mr-10 text-black cursor-pointer">Blog</span>
+        <nav>
+          <span className="text-base mr-10 text-black cursor-pointer">
+            Home
+          </span>
+          <span className="text-base mr-10 text-black cursor-pointer">
+            Blog
+          </span>
+        </nav>
         <div>
           {/* <Switch defaultSelected aria-label="Automatic updates"/> */}
           <Switch
@@ -23,7 +29,7 @@ const Navbar = () => {
           />
         </div>
       </div>
-    </div>
+    </header>
   );
 };
 

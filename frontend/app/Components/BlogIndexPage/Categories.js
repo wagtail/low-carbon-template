@@ -3,7 +3,7 @@ import Category from './Category';
 
 const Categories = () => {
   return (
-    <div className="w-[30vw]">
+    <section className="w-[30vw]" role="navigation">
       <h5 className="text-gray-700 text-lg font-semibold mb-5">Categories</h5>
       <div className="flex flex-row gap-4 flex-wrap">
         <Category />
@@ -12,7 +12,7 @@ const Categories = () => {
         <Category />
         <Category />
       </div>
-    </div>
+    </section>
   );
 };
 

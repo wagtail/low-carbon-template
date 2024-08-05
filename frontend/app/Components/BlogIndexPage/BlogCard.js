@@ -2,8 +2,11 @@ import React from 'react';
 
 const BlogCard = () => {
   return (
-    <div className="w-[20vw] border border-dashed border-2 border-gray-800 p-4 bg-gray-100 rounded-br-lg">
-      <h2 className="text-xl font-semibold mb-2 text-black">
+    <div
+      className="w-[20vw] border border-dashed border-2 border-gray-800 p-4 bg-gray-100 rounded-br-lg"
+      aria-labelledby="blog-heading"
+    >
+      <h2 className="text-xl font-semibold mb-2 text-black" id="blog-heading">
         Green Environment: Impact of Sustainable Coding Practices
       </h2>
       <div className="flex justify-between text-gray-500 mb-6">

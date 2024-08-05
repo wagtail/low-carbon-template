@@ -1,9 +1,9 @@
 const Footer = () => {
   return (
     <footer className="">
-      <div className="mx-36 flex flex-row items-center justify-between bg-[#0C0E0A] py-6">
+      <div className="lg:mx-36 mx-6 flex md:flex-row flex-col items-center justify-between bg-[#0C0E0A] md:py-6 py-4">
         <div>
-          <p className="italic">
+          <p className="italic text-center mb-5 md:mb-0">
             Wagtail, A step towards Sustainable Development.
           </p>
         </div>

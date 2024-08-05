@@ -1,16 +1,16 @@
-import React from 'react'
-import BlogHeader from './BlogHeader'
-import BlogContent from './BlogContent'
-import RelatedBlogs from './RelatedBlogs'
+import React from 'react';
+import BlogHeader from './BlogHeader';
+import BlogContent from './BlogContent';
+import RelatedBlogs from './RelatedBlogs';
 
 const BlogPage = () => {
   return (
-    <div>
-        <BlogHeader/>
-        <BlogContent/>
-        <RelatedBlogs/>
-    </div>
-  )
-}
+    <>
+      <BlogHeader />
+      <BlogContent />
+      <RelatedBlogs />
+    </>
+  );
+};
 
-export default BlogPage
+export default BlogPage;

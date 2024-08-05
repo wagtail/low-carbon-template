@@ -1,12 +1,12 @@
-import BlogPage from '@/app/Components/BlogPage/BlogPage'
-import React from 'react'
+import BlogPage from '@/app/Components/BlogPage/BlogPage';
+import React from 'react';
 
 const page = () => {
   return (
-    <div>
-        <BlogPage/>
-    </div>
-  )
-}
+    <>
+      <BlogPage />
+    </>
+  );
+};
 
-export default page
+export default page;
